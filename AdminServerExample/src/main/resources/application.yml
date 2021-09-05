@@ -1,0 +1,23 @@
+server:
+  port: 9000
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  
+
+logging:
+    level:
+      com.springboot: INFO
+
+#spring:
+#  security:
+#    user:
+#      name: "springboot_admin"
+#      password: "springboot_password"
+      
+#eureka:
+#  client:
+#    register-with-eureka: false
+    
