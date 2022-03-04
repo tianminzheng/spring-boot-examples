@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: goodsservice
+  profiles:
+    active:
+      default
+  cloud:
+    config:
+      enabled: true

@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: userservice
+  profiles:
+    active:
+      default
